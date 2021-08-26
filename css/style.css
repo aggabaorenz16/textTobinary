@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+.header {
+    display: grid;
+    width: 100%;
+    background-color: #0E1E25;
+    height: 11vh;
+    padding: 1rem;
+}
+.header .text {
+    color: white;
+    font-size: 18px;
+}
+.container {
+    background-color: #ffffff;
+    height: 88vh;
+    width: 100%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .containerHeader {
+    background-color: #15847B;
+    height: 80%;
+    width: 40%;
+    box-shadow: 0 8px 16px 16px rgba(1, 1, 1, 0.11), 0 6px 20px 0 rgba(1, 1, 1, 0.363);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+.box {
+    background-color: #15847B;
+    height: 40%;
+    width: 40%;
+    box-shadow: 0 8px 16px 16px rgba(1, 1, 1, 0.11), 0 6px 20px 0 rgba(1, 1, 1, 0.363);
+    border: 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .box p {
+    font-size: 15px;
+    padding: 1rem;
+}
+input {
+    width: 80%;
+    height: 10%;
+    text-align: center;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn button {
+    background-color: #15847B;
+    height: 40%;
+    width: 20%;
+    border-radius: 8px;
+    padding: 0.5rem;
+    font-size: 15px;
+    color: white;
+}
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 1rem;
+}
+p::selection {
+    color: white;
+    background-color: black;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+@media all and (max-width: 419px){
+    .container .containerHeader {
+        height: 80%;
+        width: 80%;
+    }
+}
+@media all and (min-width: 420px) and (max-width: 600px){
+    .container .containerHeader {
+        height: 80%;
+        width: 80%;
+    }
+}
+@media all and (min-width: 600px) and (max-width: 920px) {
+    .container .containerHeader {
+        height: 80%;
+        width: 80%;
+    }
+}
